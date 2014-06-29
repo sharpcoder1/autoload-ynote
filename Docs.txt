@@ -1,0 +1,6 @@
+-- Requires knowledge of the Ynote Classic Framework / API --
+
+Automatically loads scripts from the $ynotedata\AutoLoad Directory at startup and from $ynotedata\AutoLoad\Editor when a new document is 
+created.
+
+Helpful for loading scripts as plugins or Settings

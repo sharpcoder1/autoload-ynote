@@ -1,6 +1,7 @@
-// =============================================
+﻿// =============================================
 //
 // Ynote Classic Plugin to Automatically Load Scripts on Startup
+// Copyright (C) 2014 Samarjeet Singh
 // Supports : v2.8.5 and later
 //
 // =============================================
@@ -14,6 +15,7 @@ using WeifenLuo.WinFormsUI.Docking;
 
 namespace AutoLoad
 {
+    // NOTE: Loading several scripts on startup May Delay Startup Time
 
     /// <summary>
     /// AutoLoad Plugin for Ynote Classic
@@ -34,7 +36,7 @@ namespace AutoLoad
                                               "\\Ynote Classic\\AutoLoad";
 
         /// <summary>
-        ///  Occurs on Load
+        ///  Main Method of Plugin
         /// </summary>
         /// <param name="ynote"></param>
         public void Main(IYnote ynote)
