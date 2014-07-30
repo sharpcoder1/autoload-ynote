@@ -9,4 +9,4 @@ Automatically loads scripts at startup. Helpful for loading scripts as plugins
 Compatibility
 ---
 
-AutoLoad is compatible with Ynote Classic 2.8.5 and later.
+AutoLoad is compatible with Ynote Classic 2.8.5 Beta

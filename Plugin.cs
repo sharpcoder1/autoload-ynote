@@ -1,8 +1,7 @@
 ﻿// =============================================
 //
 // Ynote Classic Plugin to Automatically Load Scripts on Startup
-// Copyright (C) 2014 Samarjeet Singh
-// Supports : v2.8.5 and later
+// Supports : v2.8.5 Beta
 //
 // =============================================
 using System;
@@ -63,7 +62,7 @@ namespace AutoLoad
                 string[] scripts = Directory.GetFiles(dir, "*.ys");
                 for (int i = 0; i < scripts.Length; i++)
                 {
-                    YnoteScript.InvokeScript(activeDocument as Editor, scripts[i], "*.Main");
+                    YnoteScript.InvokeScript(scripts[i], "*.Main", activeDocument as Editor);
                 }
             }
         }

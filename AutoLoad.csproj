@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AutoLoad</RootNamespace>
     <AssemblyName>AutoLoad</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,13 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CSScriptLibrary.v3.5">
-      <HintPath>..\..\..\Documents\GitHub\ynoteclassic\Code\Build\CSScriptLibrary.v3.5.dll</HintPath>
-    </Reference>
-    <Reference Include="FastColoredTextBox">
-      <HintPath>..\..\..\Documents\GitHub\ynoteclassic\Code\Build\FastColoredTextBox.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Ynote Classic\CSScriptLibrary.v3.5.dll</HintPath>
     </Reference>
     <Reference Include="SS.Ynote.Classic">
-      <HintPath>..\..\..\Documents\GitHub\ynoteclassic\Code\Build\SS.Ynote.Classic.exe</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Ynote Classic\SS.Ynote.Classic.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition">
@@ -45,10 +43,6 @@
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
     <Reference Include="WeifenLuo.WinFormsUI.Docking">
       <HintPath>..\..\..\Documents\GitHub\ynoteclassic\Code\Build\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
     </Reference>
